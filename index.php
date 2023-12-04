@@ -1,3 +1,6 @@
+<?php 
+    $fruits = ["apple", "orange", "pear"];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

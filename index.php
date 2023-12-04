@@ -1,5 +1,17 @@
 <?php 
     $fruits = ["apple", "orange", "pear"];
+
+    // get length
+    echo count($fruits);
+
+    // search array
+    var_dump(in_array('apple', $fruits));
+
+    // add to an array
+    $fruits[] = "grape";
+    array_push($fruits, "blueberry", "strawberry");
+
+    print_r($fruits);
 ?>
 <!DOCTYPE html>
 <html lang="en">

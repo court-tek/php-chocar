@@ -13,7 +13,11 @@
     array_unshift($fruits, "mango", "watermelon");
 
     // remove from array
+    array_pop($fruits);
+    array_shift($fruits);
 
+    // unset
+    unset($fruits[2]);
 
 
     print_r($fruits);

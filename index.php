@@ -7,9 +7,14 @@
     // search array
     var_dump(in_array('apple', $fruits));
 
-    // add to an array
+    // add to an array 
     $fruits[] = "grape";
     array_push($fruits, "blueberry", "strawberry");
+    array_unshift($fruits, "mango", "watermelon");
+
+    // remove from array
+
+
 
     print_r($fruits);
 ?>

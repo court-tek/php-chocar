@@ -16,11 +16,13 @@
     array_pop($fruits);
     array_shift($fruits);
 
-    // unset
-    unset($fruits[2]);
+    // unset removes item and index
+    // unset($fruits[2]);
+
+    $chunked_array = array_chunk($fruits, 2);
 
 
-    print_r($fruits);
+    print_r($chunked_array);
 ?>
 <!DOCTYPE html>
 <html lang="en">

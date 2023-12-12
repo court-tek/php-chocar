@@ -22,7 +22,16 @@
     $chunked_array = array_chunk($fruits, 2);
 
 
-    print_r($chunked_array);
+    // print_r($chunked_array);
+
+    $arr1 = [1, 2, 3, 'dick'];
+    $arr2 = [4 ,5, 6, 'vagina'];
+    $arr3 = [7, 8, 9, 'mary jane'];
+    $arr4 = array_merge($arr1, $arr2);
+
+    $arr5 = [...$arr3, ...$arr2];
+
+    print_r($arr5);
 ?>
 <!DOCTYPE html>
 <html lang="en">

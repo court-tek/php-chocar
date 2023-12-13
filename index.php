@@ -29,9 +29,18 @@
     $arr3 = [7, 8, 9, 'mary jane'];
     $arr4 = array_merge($arr1, $arr2);
 
+    // dot operator php
     $arr5 = [...$arr3, ...$arr2];
 
-    print_r($arr5);
+    // combone arrays
+    // makes the items in first array as keys and items in second array as values.
+    $a = ['verde', 'rojo', 'amarillo'];
+
+    $b = ['naranja', 'ajo', 'boniato'];
+
+    $c = array_combine($a, $b);
+
+    print_r($c);
 ?>
 <!DOCTYPE html>
 <html lang="en">
